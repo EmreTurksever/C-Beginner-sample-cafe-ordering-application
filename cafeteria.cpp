@@ -9,35 +9,35 @@ void Cafe::OrderList() {
 
 void Cafe::Menu() {
 	Cafe c;
-	cout << "-------------H O S G E L D I N I Z-----------	"	<< endl;
-	cout << "|||||||||||||||||||||||||||||||||||||||||||||||"	<< endl;
-	cout << "           Icecekler  Listesi         			"	<< endl;
-	cout << "1)Kola	= 1O TL								"	<< endl;
-	cout << "2)Ayran	= 5 TL								"	<< endl;
-	cout << "3)Soda	= 3 TL								"	<< endl;
-	cout << "|||||||||||||||||||||||||||||||||||||||||||||||"	<< endl;
-	cout << "	        Yiyecekler  Listesi        			"	<< endl;
-	cout << "4)Kebab	= 70 TL								"	<< endl;
-	cout << "5)Doner	= 30 TL								"	<< endl;
-	cout << "6)Salata = 45 TL								"	<< endl;
-	cout << "|||||||||||||||||||||||||||||||||||||||||||||||"	<< endl;
-	cout<<"-------------------------------------------------"	<< endl;
-	cout << "0)Cikis										"	<< endl;
-	cout << "------------------------------------------------"	<< endl;
+	cout << "-------------H O S G E L D I N I Z-----------	"	 << endl;
+	cout << "|||||||||||||||||||||||||||||||||||||||||||||||"	 << endl;
+	cout << "           Icecekler  Listesi         			"<< endl;
+	cout << "1)Kola	= 1O TL						"<< endl;
+	cout << "2)Ayran	= 5 TL					"<< endl;
+	cout << "3)Soda	= 3 TL						"<< endl;
+	cout << "|||||||||||||||||||||||||||||||||||||||||||||||	"<< endl;
+	cout << "	        Yiyecekler  Listesi        		"<< endl;
+	cout << "4)Kebab	= 70 TL					"<< endl;
+	cout << "5)Doner	= 30 TL					"<< endl;
+	cout << "6)Salata = 45 TL					"<< endl;
+	cout << "|||||||||||||||||||||||||||||||||||||||||||||||	"<< endl;
+	cout<<"-------------------------------------------------	"<< endl;
+	cout << "0)Cikis						"<< endl;
+	cout << "------------------------------------------------	"<< endl;
 } 
 void Cafe::DrinkList() {
-	cout << "           Icecekler  Listesi         			"	<< endl;
-	cout << "1)Kola		= 1O TL								"	<< endl;
-	cout << "2)Ayran	= 5 TL								"	<< endl;
-	cout << "3)Soda		= 3 TL								"	<< endl;
+	cout << "           Icecekler  Listesi         			"<< endl;
+	cout << "1)Kola		= 1O TL					"<< endl;
+	cout << "2)Ayran	= 5 TL					"<< endl;
+	cout << "3)Soda		= 3 TL					"<< endl;
 
 }
 
 void Cafe::FoodList() {
-	cout << "	        Yiyecekler  Listesi        			"	<< endl;
-	cout << "4)Kebab= 70 TL								"		<< endl;
-	cout << "5)Doner= 30 TL								"		<< endl;
-	cout << "6)Salata= 45 TL								"	<< endl;
+	cout << "	        Yiyecekler  Listesi        			"<< endl;
+	cout << "4)Kebab= 70 TL							"<< endl;
+	cout << "5)Doner= 30 TL							"<< endl;
+	cout << "6)Salata= 45 TL						"<< endl;
 }
 void Cafe::ChoiceFood() {
 
@@ -46,7 +46,7 @@ void Cafe::ChoiceFood() {
 	cout << "lUTFEN BIR SECIM YAPINIZ" << endl<<endl;
 	cout << "Icecekler Bolumu	=	1" << endl;
 	cout << "Yiyecekler Bolumu	=	2" << endl;
-	cout << "Cikis			=	0"	   << endl;
+	cout << "Cikis			=	0" << endl;
 
 
 
@@ -85,7 +85,7 @@ void Cafe::ChoiceFood() {
 				OrderList();
 			}
 			else {
-				cout << "Yanlis secim yaptiğiniz icin cikis islemi yapildi" << endl;
+				cout << "Yanlis secim yaptiÃ°iniz icin cikis islemi yapildi" << endl;
 				exit(0);
 			}
 
@@ -112,7 +112,7 @@ void Cafe::ChoiceFood() {
 				OrderList();
 			}
 			else {
-				cout << "Yanlis secim yaptiğiniz icin cikis islemi yapildi" << endl;
+				cout << "Yanlis secim yaptiÃ°iniz icin cikis islemi yapildi" << endl;
 				exit(0);
 			}
 			break;
