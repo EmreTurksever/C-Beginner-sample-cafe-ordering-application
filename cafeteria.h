@@ -32,8 +32,6 @@ public:
 	string order;
 	int cost	= 0;
 	int balance = 300;
-	string getFoodName();
-	void setFoodName(string foodName);
 
 	void ChoiceFood();
 	void DrinkList();
